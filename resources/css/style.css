@@ -22,35 +22,49 @@ h1 {
   color: white;
   text-decoration: underline;
 }
-/* Sections */
 h2 {
   font-size: 32px;
+  font-weight: bold;
 }
 h3 {
   font-size: 23px;
+  font-weight: bold;
 }
 p {
   font-size: 14px;
 }
+/* Sections */
 #process {
-  color: rgb(88, 88, 88);
+  text-align: center;
 }
-#banner {
-  background-image: url("../images/the-flatiron-building.png");
-  background-repeat:no-repeat;
-  background-size:cover;
+#work {
+  text-align: center;
 }
-#banner h3{
+#team {
+  text-align: center;
+}
+#contact {
+  text-align: center;
+}
+/* Small Banner */
+.header h3 {
   color: white;
+  font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#work {
-  color: rgb(88, 88, 88);
+/* Footer */
+.footer p {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+  text-align: left;
+  padding-left: 5px;
 }
-#team {
-  color: rgb(88, 88, 88);
-}
-#contact {
-  color: rgb(88, 88, 88);
+.footer a {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 5px;
+  line-height: 32px;
 }
